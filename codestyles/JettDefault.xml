@@ -1,4 +1,4 @@
-<code_scheme name="Default (1)">
+<code_scheme name="JettDefault">
   <option name="FIELD_NAME_PREFIX" value="m" />
   <option name="STATIC_FIELD_NAME_PREFIX" value="s" />
   <option name="PARAMETER_NAME_PREFIX" value="a" />
@@ -25,9 +25,6 @@
   <JavaCodeStyleSettings>
     <option name="DO_NOT_WRAP_AFTER_SINGLE_ANNOTATION" value="true" />
   </JavaCodeStyleSettings>
-  <MarkdownNavigatorCodeStyleSettings>
-    <option name="RIGHT_MARGIN" value="72" />
-  </MarkdownNavigatorCodeStyleSettings>
   <XML>
     <option name="XML_KEEP_LINE_BREAKS" value="false" />
     <option name="XML_ALIGN_ATTRIBUTES" value="false" />
