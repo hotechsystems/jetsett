@@ -1,47 +1,21 @@
 <templateSet group="JavaScript">
-  <template name="varme" value="var me = this;" description="defines me as this var" toReformat="true" toShortenFQNames="true">
-    <context />
-  </template>
+  <template name="varme" value="var me = this;" description="defines me as this var" toReformat="true" toShortenFQNames="true" />
   <template name="extdef" value="Ext.define('$CLASSNAME$', {&#10;    extend: '$CLASSPARENT$',&#10;    $END$&#10;    config: {&#10;&#10;    },&#10;&#10;    initialize: function(){&#10;        this.callParent(arguments);&#10;    }&#10; }); //define $CLASSNAME$" description="Define Ext JS Class" toReformat="true" toShortenFQNames="true">
     <variable name="CLASSNAME" expression="" defaultValue="" alwaysStopAt="true" />
     <variable name="CLASSPARENT" expression="" defaultValue="" alwaysStopAt="true" />
-    <context />
   </template>
-  <template name="initcomp" value="initComponent: function () {&#10;    var me = this;&#10;&#10;    $END$&#10;&#10;    me.callParent(arguments);&#10;}" description="initComponent method definition" toReformat="false" toShortenFQNames="true">
-    <context />
-  </template>
-  <template name="getfe" value="getFormEdits: function () {&#10;    var me = this;&#10;&#10;    var editItems = [$END$];&#10;&#10;    return me.callSuper().concat(editItems);&#10;}" description="Get Form Edits function" toReformat="false" toShortenFQNames="true">
-    <context />
-  </template>
-  <template name="cbisdef" value="{&#10;    xtype: 'isdefcheckbox'&#10;}$END$" description="Check Box - IsDef" toReformat="false" toShortenFQNames="true">
-    <context />
-  </template>
-  <template name="fchor" value="{&#10;    xtype: 'fieldcontainer',&#10;    layout: {type: 'hbox', align: 'stretch'},&#10;    flex: 1,&#10;    items: [$END$]&#10;}" description="Field Container - Horizontal" toReformat="false" toShortenFQNames="true">
-    <context />
-  </template>
-  <template name="fcver" value="{&#10;    xtype: 'fieldcontainer',&#10;    layout: {type: 'vbox', align: 'stretch'},&#10;    flex: 1,&#10;    items: [$END$]&#10;}" description="Field Container - Vertical" toReformat="false" toShortenFQNames="true">
-    <context />
-  </template>
-  <template name="getcpe" value="getCodePadEdit: function () {&#10;    return {&#10;        xtype: '$END$',&#10;        flex: 1&#10;    }&#10;}" description="Get Code Pad Edit (edit to accompany Code field)" toReformat="false" toShortenFQNames="true">
-    <context />
-  </template>
-  <template name="empcomp" value="{&#10;    xtype: 'component',&#10;    flex: 1&#10;}" description="Empty Component (Space Pad)" toReformat="false" toShortenFQNames="true">
-    <context />
-  </template>
+  <template name="initcomp" value="initComponent: function () {&#10;    var me = this;&#10;&#10;    $END$&#10;&#10;    me.callParent(arguments);&#10;}" description="initComponent method definition" toReformat="false" toShortenFQNames="true" />
+  <template name="getfe" value="getFormEdits: function () {&#10;    var me = this;&#10;&#10;    var editItems = [$END$];&#10;&#10;    return me.callSuper().concat(editItems);&#10;}" description="Get Form Edits function" toReformat="false" toShortenFQNames="true" />
+  <template name="cbisdef" value="{&#10;    xtype: 'isdefcheckbox'&#10;}$END$" description="Check Box - IsDef" toReformat="false" toShortenFQNames="true" />
+  <template name="fchor" value="{&#10;    xtype: 'fieldcontainer',&#10;    layout: {type: 'hbox', align: 'stretch'},&#10;    flex: 1,&#10;    items: [$END$]&#10;}" description="Field Container - Horizontal" toReformat="false" toShortenFQNames="true" />
+  <template name="fcver" value="{&#10;    xtype: 'fieldcontainer',&#10;    layout: {type: 'vbox', align: 'stretch'},&#10;    flex: 1,&#10;    items: [$END$]&#10;}" description="Field Container - Vertical" toReformat="false" toShortenFQNames="true" />
+  <template name="getcpe" value="getCodePadEdit: function () {&#10;    return {&#10;        xtype: '$END$',&#10;        flex: 1&#10;    }&#10;}" description="Get Code Pad Edit (edit to accompany Code field)" toReformat="false" toShortenFQNames="true" />
+  <template name="empcomp" value="{&#10;    xtype: 'component',&#10;    flex: 1&#10;}" description="Empty Component (Space Pad)" toReformat="false" toShortenFQNames="true" />
   <template name="flx" value="flex: 1$EDND$" description="Flex property def. assign to 1" toReformat="false" toShortenFQNames="true">
     <variable name="EDND" expression="" defaultValue="" alwaysStopAt="true" />
-    <context />
   </template>
-  <template name="getefi" value="getExtraFormItems: function () {&#10;    return {&#10;        //form toolbars, status bars, etc &#10;        $END$&#10;    }&#10;}" description="Get Extra Form Items" toReformat="false" toShortenFQNames="true">
-    <context />
-  </template>
-  <template name="surfchor" value="{&#10;    xtype: 'fieldcontainer',&#10;    layout: {type: 'hbox', align: 'stretch'},&#10;    flex: 1,&#10;    items: [&#10;        $SELECTION$&#10;    ]&#10;}" description="Surround With Field Container (Horizontal)" toReformat="false" toShortenFQNames="true">
-    <context />
-  </template>
-  <template name="surfcver" value="{&#10;    xtype: 'fieldcontainer',&#10;    layout: {type: 'vbox', align: 'stretch'},&#10;    flex: 1,&#10;    items: [&#10;        $SELECTION$&#10;    ]&#10;}" description="Surround With Field Container (Vertical)" toReformat="false" toShortenFQNames="true">
-    <context />
-  </template>
-  <template name="getcpesc" value="getCodePadEdit: function () {&#10;    return {&#10;        xtype: 'textfield',&#10;        name: 'shortcode',&#10;        fieldLabel: 'shortcode',&#10;        flex:1&#10;    }&#10;}" description="Get Code Pad Edit (Short Code)" toReformat="false" toShortenFQNames="true">
-    <context />
-  </template>
+  <template name="getefi" value="getExtraFormItems: function () {&#10;    return {&#10;        //form toolbars, status bars, etc &#10;        $END$&#10;    }&#10;}" description="Get Extra Form Items" toReformat="false" toShortenFQNames="true" />
+  <template name="surfchor" value="{&#10;    xtype: 'fieldcontainer',&#10;    layout: {type: 'hbox', align: 'stretch'},&#10;    flex: 1,&#10;    items: [&#10;        $SELECTION$&#10;    ]&#10;}" description="Surround With Field Container (Horizontal)" toReformat="false" toShortenFQNames="true" />
+  <template name="surfcver" value="{&#10;    xtype: 'fieldcontainer',&#10;    layout: {type: 'vbox', align: 'stretch'},&#10;    flex: 1,&#10;    items: [&#10;        $SELECTION$&#10;    ]&#10;}" description="Surround With Field Container (Vertical)" toReformat="false" toShortenFQNames="true" />
+  <template name="getcpesc" value="getCodePadEdit: function () {&#10;    return {&#10;        xtype: 'textfield',&#10;        name: 'shortcode',&#10;        fieldLabel: 'shortcode',&#10;        flex:1&#10;    }&#10;}" description="Get Code Pad Edit (Short Code)" toReformat="false" toShortenFQNames="true" />
 </templateSet>

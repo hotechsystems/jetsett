@@ -1,8 +1,4 @@
 <templateSet group="PHP">
-  <template name="langadd" value="&quot;$END$&quot; =&gt; &quot;&quot;" description="Add Word To Lang File" toReformat="false" toShortenFQNames="true">
-    <context />
-  </template>
-  <template name="disperr" value="ini_set(&quot;display_errors&quot;, 1$END$);" description="Display Errors Settings" toReformat="false" toShortenFQNames="true">
-    <context />
-  </template>
+  <template name="langadd" value="&quot;$END$&quot; =&gt; &quot;&quot;" description="Add Word To Lang File" toReformat="false" toShortenFQNames="true" />
+  <template name="disperr" value="ini_set(&quot;display_errors&quot;, 1$END$);" description="Display Errors Settings" toReformat="false" toShortenFQNames="true" />
 </templateSet>
