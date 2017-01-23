@@ -6,6 +6,10 @@
           <option name="url" value="http://github.com" />
           <option name="userName" value="hturgut" />
         </UrlAndUserName>
+        <UrlAndUserName>
+          <option name="url" value="http://radev.amonra.com.tr:81" />
+          <option name="userName" value="hturgut" />
+        </UrlAndUserName>
       </list>
     </option>
   </component>
