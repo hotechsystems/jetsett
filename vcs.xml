@@ -14,6 +14,10 @@
           <option name="url" value="http://radev.amonra.com.tr:81/web/raweb.git" />
           <option name="userName" value="" />
         </UrlAndUserName>
+        <UrlAndUserName>
+          <option name="url" value="http://radev.amonra.com.tr:81/web/files.git" />
+          <option name="userName" value="" />
+        </UrlAndUserName>
       </list>
     </option>
     <option name="cloneParentDir" value="/Volumes/HTD/www/html" />
