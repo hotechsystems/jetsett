@@ -1,4 +1,4 @@
-<code_scheme name="JettDefault">
+<code_scheme name="Otello">
   <option name="FIELD_NAME_PREFIX" value="m" />
   <option name="STATIC_FIELD_NAME_PREFIX" value="s" />
   <option name="PARAMETER_NAME_PREFIX" value="a" />
@@ -10,27 +10,38 @@
       <package name="java" withSubpackages="true" static="false" />
       <package name="javax" withSubpackages="true" static="false" />
       <emptyLine />
+      <package name="android.*" withSubpackages="true" static="false" />
+      <emptyLine />
       <package name="" withSubpackages="true" static="false" />
       <emptyLine />
+      <package name="import systems.hotech.*" withSubpackages="true" static="false" />
       <emptyLine />
       <package name="" withSubpackages="true" static="true" />
     </value>
   </option>
-  <option name="RIGHT_MARGIN" value="180" />
+  <option name="RIGHT_MARGIN" value="200" />
   <AndroidXmlCodeStyleSettings>
     <option name="USE_CUSTOM_SETTINGS" value="true" />
     <option name="LAYOUT_SETTINGS">
       <value>
+        <option name="INSERT_LINE_BREAK_BEFORE_NAMESPACE_DECLARATION" value="true" />
         <option name="INSERT_LINE_BREAK_AFTER_LAST_ATTRIBUTE" value="true" />
       </value>
     </option>
     <option name="MANIFEST_SETTINGS">
       <value>
+        <option name="INSERT_LINE_BREAK_BEFORE_NAMESPACE_DECLARATION" value="true" />
         <option name="INSERT_LINE_BREAK_AFTER_LAST_ATTRIBUTE" value="true" />
+      </value>
+    </option>
+    <option name="VALUE_RESOURCE_FILE_SETTINGS">
+      <value>
+        <option name="WRAP_ATTRIBUTES" value="2" />
       </value>
     </option>
     <option name="OTHER_SETTINGS">
       <value>
+        <option name="INSERT_LINE_BREAK_BEFORE_NAMESPACE_DECLARATION" value="true" />
         <option name="INSERT_LINE_BREAK_AFTER_LAST_ATTRIBUTE" value="true" />
       </value>
     </option>
@@ -38,7 +49,36 @@
   <JavaCodeStyleSettings>
     <option name="DO_NOT_WRAP_AFTER_SINGLE_ANNOTATION" value="true" />
   </JavaCodeStyleSettings>
+  <MarkdownNavigatorCodeStyleSettings>
+    <option name="RIGHT_MARGIN" value="72" />
+  </MarkdownNavigatorCodeStyleSettings>
+  <Objective-C-extensions>
+    <file>
+      <option name="com.jetbrains.cidr.lang.util.OCDeclarationKind" value="Import" />
+      <option name="com.jetbrains.cidr.lang.util.OCDeclarationKind" value="Macro" />
+      <option name="com.jetbrains.cidr.lang.util.OCDeclarationKind" value="Typedef" />
+      <option name="com.jetbrains.cidr.lang.util.OCDeclarationKind" value="Enum" />
+      <option name="com.jetbrains.cidr.lang.util.OCDeclarationKind" value="Constant" />
+      <option name="com.jetbrains.cidr.lang.util.OCDeclarationKind" value="Global" />
+      <option name="com.jetbrains.cidr.lang.util.OCDeclarationKind" value="Struct" />
+      <option name="com.jetbrains.cidr.lang.util.OCDeclarationKind" value="FunctionPredecl" />
+      <option name="com.jetbrains.cidr.lang.util.OCDeclarationKind" value="Function" />
+    </file>
+    <class>
+      <option name="com.jetbrains.cidr.lang.util.OCDeclarationKind" value="Property" />
+      <option name="com.jetbrains.cidr.lang.util.OCDeclarationKind" value="Synthesize" />
+      <option name="com.jetbrains.cidr.lang.util.OCDeclarationKind" value="InitMethod" />
+      <option name="com.jetbrains.cidr.lang.util.OCDeclarationKind" value="StaticMethod" />
+      <option name="com.jetbrains.cidr.lang.util.OCDeclarationKind" value="InstanceMethod" />
+      <option name="com.jetbrains.cidr.lang.util.OCDeclarationKind" value="DeallocMethod" />
+    </class>
+    <extensions>
+      <pair source="cpp" header="h" />
+      <pair source="c" header="h" />
+    </extensions>
+  </Objective-C-extensions>
   <XML>
+    <option name="XML_ATTRIBUTE_WRAP" value="4" />
     <option name="XML_KEEP_LINE_BREAKS" value="false" />
     <option name="XML_ALIGN_ATTRIBUTES" value="false" />
     <option name="XML_SPACE_AROUND_EQUALITY_IN_ATTRIBUTE" value="true" />
@@ -49,24 +89,22 @@
     <option name="RIGHT_MARGIN" value="180" />
     <option name="KEEP_FIRST_COLUMN_COMMENT" value="false" />
     <option name="KEEP_CONTROL_STATEMENT_IN_ONE_LINE" value="false" />
-    <option name="KEEP_BLANK_LINES_IN_DECLARATIONS" value="1" />
-    <option name="KEEP_BLANK_LINES_IN_CODE" value="1" />
-    <option name="KEEP_BLANK_LINES_BEFORE_RBRACE" value="1" />
     <option name="CLASS_BRACE_STYLE" value="2" />
     <option name="METHOD_BRACE_STYLE" value="5" />
     <option name="ELSE_ON_NEW_LINE" value="true" />
     <option name="CATCH_ON_NEW_LINE" value="true" />
     <option name="FINALLY_ON_NEW_LINE" value="true" />
     <option name="ALIGN_MULTILINE_CHAINED_METHODS" value="true" />
+    <option name="ALIGN_MULTILINE_THROWS_LIST" value="true" />
     <option name="ALIGN_MULTILINE_EXTENDS_LIST" value="true" />
     <option name="RESOURCE_LIST_WRAP" value="2" />
     <option name="RESOURCE_LIST_LPAREN_ON_NEXT_LINE" value="true" />
     <option name="RESOURCE_LIST_RPAREN_ON_NEXT_LINE" value="true" />
-    <option name="EXTENDS_LIST_WRAP" value="1" />
-    <option name="THROWS_LIST_WRAP" value="1" />
+    <option name="EXTENDS_LIST_WRAP" value="2" />
+    <option name="THROWS_LIST_WRAP" value="2" />
     <option name="EXTENDS_KEYWORD_WRAP" value="2" />
     <option name="THROWS_KEYWORD_WRAP" value="2" />
-    <option name="METHOD_CALL_CHAIN_WRAP" value="2" />
+    <option name="METHOD_CALL_CHAIN_WRAP" value="1" />
     <option name="IF_BRACE_FORCE" value="3" />
     <option name="DOWHILE_BRACE_FORCE" value="3" />
     <option name="WHILE_BRACE_FORCE" value="3" />
@@ -98,9 +136,11 @@
     </indentOptions>
   </codeStyleSettings>
   <codeStyleSettings language="XML">
+    <option name="RIGHT_MARGIN" value="200" />
     <option name="FORCE_REARRANGE_MODE" value="1" />
     <indentOptions>
       <option name="CONTINUATION_INDENT_SIZE" value="4" />
+      <option name="KEEP_INDENTS_ON_EMPTY_LINES" value="true" />
     </indentOptions>
     <arrangement>
       <rules>
