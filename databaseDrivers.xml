@@ -17,6 +17,13 @@
       <artifact name="jTDS (SQL Server and Sybase)" use="true" />
       <option name="auto-sync" value="true" />
     </driver>
+    <driver id="8cda1d51-09d9-4e7e-8ea4-5ee0c6ea2f18" name="Firebird2" dialect="SQL92" driver-class="org.firebirdsql.jdbc.FBDriver">
+      <option name="auto-commit" value="true" />
+      <option name="auto-sync" value="true" />
+      <library>
+        <url>file://$USER_HOME$/bin/Jaybird2/jaybird-full-2.2.12.jar</url>
+      </library>
+    </driver>
     <driver id="sqlserver.jtds" name="SQL Server (jTds)" dialect="TSQL">
       <artifact name="jTDS (SQL Server and Sybase)" use="true" />
       <option name="auto-sync" value="true" />
@@ -32,6 +39,7 @@
     <driver id="sqlite.xerial" name="Sqlite (Xerial)" dialect="SQLite">
       <artifact name="Xerial SQLiteJDBC" use="true" />
       <option name="auto-sync" value="true" />
+      <property name="enable_load_extension" value="true" />
     </driver>
     <driver id="sybase.ase" name="Sybase (Native)" dialect="Sybase">
       <option name="auto-sync" value="true" />
@@ -48,6 +56,13 @@
     <driver id="sqlserver.ms" name="SQL Server (Microsoft)" dialect="TSQL">
       <artifact name="SQL Server" use="true" />
       <option name="auto-sync" value="true" />
+    </driver>
+    <driver id="java.sql.Driver" name="Firebird3" dialect="SQL92" driver-class="org.firebirdsql.jdbc.FBDriver">
+      <option name="auto-commit" value="true" />
+      <option name="auto-sync" value="true" />
+      <library>
+        <url>file://$USER_HOME$/bin/Jaybird3/jaybird-full-3.0.0-beta-2.jar</url>
+      </library>
     </driver>
     <driver id="db2.jtopen" name="DB2 (JTOpen)" dialect="DB2">
       <artifact name="JTOpen (DB2 iSeries)" use="true" />
