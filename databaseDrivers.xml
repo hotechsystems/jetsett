@@ -17,13 +17,6 @@
       <artifact name="jTDS (SQL Server and Sybase)" use="true" />
       <option name="auto-sync" value="true" />
     </driver>
-    <driver id="8cda1d51-09d9-4e7e-8ea4-5ee0c6ea2f18" name="Firebird2" dialect="SQL92" driver-class="org.firebirdsql.jdbc.FBDriver">
-      <option name="auto-commit" value="true" />
-      <option name="auto-sync" value="true" />
-      <library>
-        <url>file://$USER_HOME$/bin/Jaybird2/jaybird-full-2.2.12.jar</url>
-      </library>
-    </driver>
     <driver id="sqlserver.jtds" name="SQL Server (jTds)" dialect="TSQL">
       <artifact name="jTDS (SQL Server and Sybase)" use="true" />
       <option name="auto-sync" value="true" />
