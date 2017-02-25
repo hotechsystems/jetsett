@@ -75,9 +75,17 @@
       <pair source="c" header="h" />
     </extensions>
   </Objective-C-extensions>
+  <SqlCodeStyleSettings>
+    <option name="NEW_LINE_BEFORE_QUERY_INSIDE_DML" value="true" />
+    <option name="NEW_LINE_AFTER_SELECT_2" value="2" />
+    <option name="KEYWORD_CASE" value="1" />
+    <option name="INDEX_NAME_TEMPLATE" value="IDX_{table}_{columns}_{unique?u:}" />
+    <option name="PRIMARY_KEY_NAME_TEMPLATE" value="PK_{table}_{columns}" />
+    <option name="FOREIGN_KEY_NAME_TEMPLATE" value="FK_{table}_{ref_table}_{ref_columns}" />
+  </SqlCodeStyleSettings>
   <XML>
     <option name="XML_ATTRIBUTE_WRAP" value="4" />
-    <option name="XML_KEEP_LINE_BREAKS" value="false" />
+    <option name="XML_KEEP_BLANK_LINES" value="1" />
     <option name="XML_ALIGN_ATTRIBUTES" value="false" />
     <option name="XML_SPACE_AROUND_EQUALITY_IN_ATTRIBUTE" value="true" />
     <option name="XML_SPACE_INSIDE_EMPTY_TAG" value="true" />
@@ -133,9 +141,15 @@
       <option name="INDENT_SIZE" value="4" />
     </indentOptions>
   </codeStyleSettings>
+  <codeStyleSettings language="SQL">
+    <indentOptions>
+      <option name="KEEP_INDENTS_ON_EMPTY_LINES" value="true" />
+    </indentOptions>
+  </codeStyleSettings>
   <codeStyleSettings language="XML">
     <option name="RIGHT_MARGIN" value="200" />
     <option name="FORCE_REARRANGE_MODE" value="1" />
+    <option name="WRAP_ON_TYPING" value="0" />
     <indentOptions>
       <option name="CONTINUATION_INDENT_SIZE" value="4" />
       <option name="KEEP_INDENTS_ON_EMPTY_LINES" value="true" />
